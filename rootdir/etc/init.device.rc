@@ -32,6 +32,10 @@ on post-fs-data
     chown system cameraserver mnt/vendor/persist/camera
     chmod 0755 mnt/vendor/persist/camera
 
+# Add for ir
+    chown system system /dev/lirc0
+    chmod 0666 /dev/lirc0
+
 on boot
 
     chmod 0775 /data/vendor/camera
