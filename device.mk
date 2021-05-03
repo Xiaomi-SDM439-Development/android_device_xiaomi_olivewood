@@ -34,3 +34,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
+
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.device.rc
