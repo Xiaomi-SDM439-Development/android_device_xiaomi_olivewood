@@ -28,5 +28,8 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4294967296
 # Partitions - Vendor
 BOARD_VENDORIMAGE_PARTITION_SIZE := 1073741824
 
+# Partitions - Cache
+BOARD_CACHEIMAGE_PARTITION_SIZE := 402653184
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/olive/BoardConfigVendor.mk
